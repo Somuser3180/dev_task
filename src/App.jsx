@@ -6,9 +6,7 @@ import SignupScreen from './components/SignupScreen'
 import Profile from './components/Profile'
 import { createBrowserRouter, RouterProvider } from 'react-router'
 
-function App() {
-  
-  const router  = createBrowserRouter([
+ const router  = createBrowserRouter([
     {
       path:"/",
       element:<LandingScreen />
@@ -26,6 +24,10 @@ function App() {
       element:<Profile />
     }
   ])
+
+function App() {
+  
+ 
 
   return (
     <>

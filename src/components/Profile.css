@@ -1,0 +1,102 @@
+.profile-container {
+  width: 375px;
+  height: 812px;
+  margin: auto;
+  background-color: #F7F8F9;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+  border: 1px solid
+}
+
+.profile-container h2 {
+  font-size: 18px;
+  margin-bottom: 16px;
+  margin-left: 15px;
+  color: #1D2226;
+  background-color: white;
+  font-weight: 600;
+  font: normal normal normal 18px/21px Rubik;
+}
+.account-section{
+    background-color: #FFFFFF;
+    height: 68px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font: normal normal normal 18px/21px Rubik;
+}
+
+.profile-header {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+
+}
+
+.profile-image-wrapper {
+  position: relative;
+  width: 76px;
+  height: 76px;
+  margin-left: 20px;
+}
+
+.profile-image {
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.camera-icon {
+  width: 21px;
+  height: 23px;
+  position: absolute;
+  bottom: -4px;
+  right: -4px;
+  background-color: #7B2FF7;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.profile-details{
+    display: flex;
+    flex-direction: column;
+    
+   
+   
+}
+.profile-details h3 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: #111827;
+   font: normal normal medium 15px/19px Rubik;
+  text-align: left;
+}
+.email-section{
+    font: normal normal normal 14px/19px Rubik;
+    color: #1D2226;
+}
+
+.profile-details .email {
+  font-size: 14px;
+  color: #1D2226;
+}
+
+.profile-div{
+  border-bottom: 3px dashed #CBCBCB;
+}
+
+
+.profile-description {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.5;
+  border-top: 1px dashed #ccc;
+  padding: 25px;
+}
